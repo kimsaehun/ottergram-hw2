@@ -37,7 +37,7 @@ function setDetailsFromThumb(thumbnail, index) {
 
 function addThumbClickHandler(thumb, index) {
   "use strict";
-  thumb.addEventListener("click", function (event) {
+  thumb.addEventListener("click", function(event) {
     event.preventDefault();
     setDetailsFromThumb(thumb, index);
   });
@@ -64,7 +64,7 @@ function valueFromArrow(arrow) {
 
 function addArrowClickHandler(arrow) {
   "user strict";
-  arrow.addEventListener("click", function (event) {
+  arrow.addEventListener("click", function(event) {
     event.preventDefault();
 
     var thumbnails = getThumbnailsArray();

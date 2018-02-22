@@ -87,7 +87,7 @@ a {
   align-items: center;
 }
 
-.detail-image-container > a {
+.detail-image-container>a {
   color: whitesmoke;
   font-size: 11em;
 }
